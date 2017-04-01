@@ -1,27 +1,26 @@
 {
-  "name": "burger14week",
+  "name": "sequelizedburger15week",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/izziewyz/burger14week.git"
+    "url": "git+https://github.com/izziewyz/sequelizedBurger15week.git"
   },
   "author": "izzie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/izziewyz/burger14week/issues"
+    "url": "https://github.com/izziewyz/sequelizedBurger15week/issues"
   },
-  "homepage": "https://github.com/izziewyz/burger14week#readme",
+  "homepage": "https://github.com/izziewyz/sequelizedBurger15week#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.8",
     "mysql": "^2.13.0",
-    "nodemon": "^1.11.0"
+    "sequelize": "^3.30.4"
   }
 }
